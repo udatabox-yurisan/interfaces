@@ -1,0 +1,67 @@
+
+<div class="total home clearfix">
+	<div class="mitad1 pc">
+		<ol >
+			<li class="pinkTitle">Personaliza</li>
+			<li class="pinkTitle">Haz tu pedido</li>
+			<li class="pinkTitle">Disfruta</li>
+		</ol>
+		<p class="left">Fácil, Rapido y con tu toque...</p>
+		<p class="right">...sólo nosotros te lo ofrecemos.</p>
+	</div>
+	<div class="mitad2 bg pc"></div>
+	<div class="tablet mobile">
+		<p>¡Personaliza nuestros productos, completa el pedido y lo hacemos para tí!</p>
+		<div class="slider total clearfix">
+			<div class="slide-control" onclick="loadIMG('1')"><</div>
+			<img class="slide" src="images/slider/slide1.PNG" width="70%" />
+			<div class="slide-control" onclick="loadIMG('2')">></div>
+
+		</div>
+		<p>Facil, rápido y con tu toque. ¡Sólo nosotros te lo ofrecemos!</p>
+	</div>
+	
+
+</div>
+<section class="total productos clearfix pc tablet">
+	<h1>Los Más Vendidos </h1>
+	<article class="decimo">
+		&nbsp;
+	</article>
+	<article class="sexto">
+		<a href="producto/1">
+			<img class="masvendido" src="images/productos/1.jpg" alt="Producto 1 - WLA"/>
+		</a>
+	</article>
+	<article class="sexto">
+		<a href="producto/1">
+			<img class="masvendido" src="images/productos/2.png" alt="Producto 2 - WLA"/>
+		</a>
+	</article>
+	<article class="sexto">
+		<a href="producto/1">
+			<img class="masvendido" src="images/productos/3.jpg" alt="Producto 3 - WLA"/>
+		</a>
+	</article>
+	<article class="sexto">
+		<a href="producto/1">
+			<img class="masvendido" src="images/productos/4.jpg" alt="Producto 4 - WLA"/>
+		</a>
+	</article>
+	<article class="sexto">
+		<a href="producto/1">
+			<img class="masvendido" src="images/productos/5.jpg" alt="Producto 5 - WLA"/>
+		</a>
+	</article>
+	<article class="sexto">
+		<a href="producto/1">
+			<img class="masvendido" src="images/productos/6.jpg" alt="Producto 6 - WLA"/>
+		</a>
+	</article>
+
+</div>
+<script>
+	function loadIMG(img){
+		$('.slide').attr('src','images/slider/slide'+img+'.PNG');
+	}
+</script>

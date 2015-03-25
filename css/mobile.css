@@ -1,0 +1,291 @@
+@media (max-width:799px) {
+
+	.pc, .pc-inline{
+		display:none !important; 
+	}
+	.mobile{
+		display:block !important;
+	}
+	.mobile-inline{
+		display:inline-block !important;
+	}
+	
+	.pc-tablet{
+		display:block;
+	}
+	#logo{
+		width:4.5em;
+		margin:.2em .4em ;
+	}
+	h1{
+		font-size: 1.1em;
+	}
+	header .login{
+		background-color: #fefc8d;
+		color:#fc6392;
+		float:right;
+		padding:.4em 1em;
+		margin: 1.5em .4em 0 0;
+		text-decoration: none;
+		font-size: .7em;
+	}
+	header .uppervar{
+		background: #fc6392;
+	}
+	#main_nav{
+		text-align: center;
+		padding:0;	
+		margin: 0;
+		float:none;		
+	}
+	#main_nav ul{
+		margin-top:.3em;
+		padding: 0 0 0 .5em;
+	}
+	#main_nav ul a{
+		text-align: center;
+		color:#fc6392;		
+	}
+	#main_nav ul a li{
+		border-left:1px solid #fc6392;	
+		width:25%;
+		float:left;
+		font-size: .7em;	
+		padding: 0 .1em;
+	}
+	#main_nav ul a li.first{
+		border-left:0px;
+		width:40%;		
+	}
+	p{
+		font-size: .9em;
+		text-align: center;
+	}
+	.slider{
+		text-align: center;
+		margin-top:1em;
+
+	}
+	.slide{
+		height:200px;
+		width:80%;
+		float:left;
+
+	}
+	.slider .slide-control{
+		width: 9%;
+		float: left;
+		font-size:2em;
+		line-height: 200px;
+		vertical-align: middle;
+
+	}
+	.slider .slide-control:hover{
+		color:#fc6392;
+		cursor:pointer;
+		
+	}
+	#page{
+		height:auto;
+		min-height: 20em;
+		padding:0em 1.5em;
+	}
+	footer{
+		text-align: center;
+		height: 1em;
+		padding: .8em 0;
+		bottom: 0;
+		width: 100%;
+	}
+	footer ul{
+		list-style: none;
+		margin-top:0;
+		padding-left:0;
+		
+
+	}
+	footer ul li{
+		text-align: center;
+		padding:0 1em;	
+		margin: 0;
+		float:none;
+		display: inline;
+		border-left: solid 1px #413316; 
+	}
+	footer ul li.first{
+		border-left:0px;		
+	}
+	footer ul li a{
+		text-decoration: none;
+		color:#413316;
+		font-size: .8em;
+	}
+	#page .total.home{
+		background:none;
+	}
+	/* ----------------- OFERTAS ------------*/
+
+	.options .filters{
+		width:100%;
+		text-align: center;
+		font-size: 13px;
+	}
+	.options .filters ul li, .options .filters ul{
+		padding-left:0;		
+	}
+	.options .filters .first{
+		border:0px;		
+	}
+	article.box-producto{
+		width:80%;
+		margin-left: 10%;
+		
+	}
+	article.box-producto .left {
+		width: 35%;
+		float: left;
+	}
+	article.box-producto .left img {
+		padding:1%;
+		width:98%;
+		border: 1px solid #999;
+
+	}
+	article.box-producto .right {
+		width: 62%;
+		float: left;
+		padding-left: 2%;
+	}
+	article.box-producto .right .button {
+		width: 45%;
+		 padding: 0.1em;
+		 font-size: 0.8em;
+		
+	}
+	article.box-producto .right h2 {
+		margin-top: 0px;
+		margin-bottom: 0px;
+		font-size: 1.1em;
+	}
+	article.box-producto .right p.text-categoria{
+		text-align: left;
+		margin-bottom: 0px;		
+	}
+	article.box-producto .right span.precio.viejo{
+		display: block;
+		float: left;
+  		width: 100%;		
+	}
+	article.box-producto .right p.precio{  
+		text-align: left;
+	} 
+	article.box-producto .right p.precioproducto{
+		text-align: left;
+		font-size: 0.9em;
+		margin-top: 0.3em;
+	}
+	article.box-producto .right a.text-vermas{
+		display: none;		
+	}
+
+/*----------- Personaliza1 ------------*/
+
+article.subcategoria{
+			width:40%; float:left; padding: .5em 5% 0 5%; cursor:pointer;
+
+		}
+		article.subcategoria.first{
+			margin-left:0;
+		}
+		.ui-accordion-content-active{
+			border-left: solid 1px #aaa;
+			border-right: solid 1px #aaa;
+			max-height: 50em;
+			overflow-y: auto;
+
+		}
+		footer{
+			position: inherit;
+			width: 100%;
+			bottom:0;
+		}
+		footer ul{
+			margin-bottom:0;
+		}
+		h1 span{
+			width:100%;
+			text-align: left;
+		}
+		.ui-accordion-header {
+			text-align: center;
+			
+		}
+		.ui-accordion .ui-accordion-icons{
+			padding-left: 0;
+		}
+		#accordion div h2{
+			font-size: 1em;
+		}
+		#main_nav ul a li{
+			font-weight: 800;
+		}
+		article.subcategoria .masvendido{
+			height: 4em;
+		}
+
+/*--------- Personaliza2 -------------*/
+footer{
+			position: inherit;
+			width: 100%;
+			bottom:0;
+		}
+		footer ul{
+			margin-bottom:0;
+		}
+		h1 span{
+			width:100%;
+			text-align: left;
+		}
+		
+		#main_nav ul a li{
+			font-weight: 800;
+		}
+		.total.personaliza2{
+			width:60%;
+			margin-left:20%;
+		}
+		.mitad1.croquis, .mitad2.colorTable{
+			width:100%;
+			padding:3em;
+		}
+		.mitad2.colorTable{
+			padding-left:0;
+			padding-top:1em;
+		}
+		table.colors tbody tr td{
+			width:40px;
+			height: 40px;
+			cursor:pointer;
+			border: solid 10px #FFF;
+		}
+		.mitad1.croquis{
+			height:150px;
+			background-color: #999;
+			padding:1em;
+		}
+
+}
+/*----------- LOGIN ------------*/
+
+		.login section form{
+			margin:1em auto 2em;
+			width: 90%;
+			font-size: 0.8em;
+		}
+@media (max-width:400px) {
+		.total.personaliza2{
+			width:90%;
+			margin-left:10%;
+		}
+
+	}
